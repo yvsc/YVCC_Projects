@@ -168,8 +168,8 @@ form {
   background: white;
   padding: 1vh 5vw;
   opacity: 0.9;
-  border: 5px #ddd solid;
-  border-radius: 5px;
+  border: 0px #ddd solid;
+  border-radius: 0px;
   font-family: "Helvetica Neue", Arial;
 }
 
@@ -189,7 +189,7 @@ form {
   color: white;
   font-size: 1.4em;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0px;
   opacity: 0.8;
 }
 
