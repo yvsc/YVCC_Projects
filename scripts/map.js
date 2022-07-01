@@ -183,8 +183,7 @@ $(window).on('load', function() {
         + getSetting('_pointsLegendIcon') + '"></i></span>');
     }
 
-    var imageUrl = 'https://github.com/yvsc/YVCC_Projects/blob/main/media/HabitatIcon.png'.addTo(map).control({position: 'bottomright'});
-    L.imageOverlay(imageUrl).control({position: 'bottomright'}).addTo(map);
+    var imageUrl = 'https://github.com/yvsc/YVCC_Projects/blob/main/media/HabitatIcon.png'.addTo(map).control({position: 'bottomright'})
     
     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
 
