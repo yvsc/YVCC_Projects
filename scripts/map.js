@@ -182,8 +182,6 @@ $(window).on('load', function() {
       $('#points-legend h6').prepend('<span class="legend-icon"><i class="fas '
         + getSetting('_pointsLegendIcon') + '"></i></span>');
     }
-
-    var imageUrl = 'https://github.com/yvsc/YVCC_Projects/blob/main/media/HabitatIcon.png'.addTo(map).control({position: 'bottomright'})
     
     var displayTable = getSetting('_displayTable') == 'on' ? true : false;
 
