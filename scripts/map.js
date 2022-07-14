@@ -60,6 +60,7 @@ $(window).on('load', function() {
     map.setView(center, zoom);
   }
 
+  addSidebar(map, id = "sidebar", options = list(position = "left"))
 
   /**
    * Given a collection of points, determines the layers based on 'Group'
